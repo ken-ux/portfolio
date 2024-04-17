@@ -1,10 +1,14 @@
 // import { useState } from 'react'
-import "./App.css";
+import Hero from "./components/Hero";
+import Content from "./components/Content";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
-      <h1 className="underline">Hello</h1>
+      <Hero />
+      <Content />
+      <Footer />
     </>
   );
 }
