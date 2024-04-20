@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    body {
+        @apply max-w-screen-xl;
+        @apply m-auto;
+        @apply p-8;
+        background-color: lightblue;
+        border: 1px solid red;
+    }
+
+    nav {
+        border: 1px solid red;
+    }
+}
