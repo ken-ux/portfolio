@@ -3,15 +3,22 @@
 @tailwind utilities;
 
 @layer base {
-    body {
-        @apply max-w-screen-xl;
-        @apply m-auto;
-        @apply p-8;
-        background-color: lightblue;
-        border: 1px solid red;
-    }
+  body {
+    @apply max-w-screen-xl;
+    @apply m-auto;
+    @apply p-8;
+    background-color: lightblue;
+    border: 1px solid red;
+  }
+}
 
-    header {
-        border: 1px solid red;
-    }
+@layer utilities {
+  .test {
+    border: 1px solid red;
+  }
+
+  .icon {
+    @apply h-5;
+    @apply w-5;
+  }
 }

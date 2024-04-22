@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <header>
+    <header className="test">
       <nav className="flex justify-between">
         <a href="/">Name</a>
         <ul className="flex gap-8">
