@@ -454,7 +454,7 @@ body {
   border: 1px solid red;
 }
 
-nav {
+header {
   border: 1px solid red;
 }
 
@@ -570,12 +570,12 @@ nav {
   display: flex;
 }
 
-.justify-between {
-  justify-content: space-between;
+.justify-end {
+  justify-content: flex-end;
 }
 
-.gap-4 {
-  gap: 1rem;
+.justify-between {
+  justify-content: space-between;
 }
 
 .gap-8 {

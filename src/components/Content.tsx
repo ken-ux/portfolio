@@ -1,7 +1,12 @@
+import Project from "./Project";
+
 const Content = () => {
   return (
     <>
-      <h1>Content</h1>
+      <h1>Projects</h1>
+      <Project />
+      <Project />
+      <Project />
     </>
   );
 };
