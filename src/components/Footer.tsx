@@ -1,8 +1,8 @@
 const Footer = () => {
   return (
-    <>
-      <h1>Footer</h1>
-    </>
+    <footer className="flex justify-end">
+      <p>Kenny Nguyen © {new Date().getFullYear()}</p>
+    </footer>
   );
 };
 
