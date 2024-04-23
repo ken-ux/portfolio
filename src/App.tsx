@@ -1,7 +1,7 @@
 // import { useState } from 'react'
 import Header from "./components/Header";
 import Hero from "./components/Hero";
-import Content from "./components/Content";
+import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <>
       <Header />
       <Hero />
-      <Content />
+      <Projects />
       <Footer />
     </>
   );
