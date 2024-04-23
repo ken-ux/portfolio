@@ -13,7 +13,7 @@ const Project = () => {
       <li key={link} className="self-start">
         <a href="" className="flex items-center">
           {link}&nbsp;
-          <ArrowTopRightOnSquareIcon className="w-5 h-5" />
+          <ArrowTopRightOnSquareIcon className="h-5 w-5" />
         </a>
       </li>
     );
@@ -21,7 +21,7 @@ const Project = () => {
 
   return (
     <div className="test">
-      <img src="" alt="" className="w-full h-64" />
+      <img src="" alt="" className="h-64 w-full" />
       <h1>Project Title</h1>
       <ul className="flex flex-col sm:flex-row sm:gap-4">{linksList}</ul>
       <div className="flex flex-wrap gap-x-2">{tagButtons}</div>
