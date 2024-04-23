@@ -659,12 +659,24 @@ a:hover {
   justify-content: space-between;
 }
 
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
 .gap-4 {
   gap: 1rem;
 }
 
 .gap-8 {
   gap: 2rem;
+}
+
+.gap-32 {
+  gap: 8rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
 }
 
 .gap-x-2 {
@@ -732,8 +744,16 @@ a:hover {
     flex-direction: row;
   }
 
+  .sm\:justify-between {
+    justify-content: space-between;
+  }
+
   .sm\:gap-4 {
     gap: 1rem;
+  }
+
+  .sm\:gap-8 {
+    gap: 2rem;
   }
 }
 

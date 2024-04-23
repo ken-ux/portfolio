@@ -2,7 +2,7 @@ import Project from "./Project";
 
 const Projects = () => {
   return (
-    <>
+    <div>
       <h1>Projects</h1>
       <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 gap-4">
         <Project />
@@ -11,7 +11,7 @@ const Projects = () => {
         <Project />
         <Project />
       </div>
-    </>
+    </div>
   );
 };
 

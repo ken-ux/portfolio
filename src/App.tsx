@@ -6,12 +6,12 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <>
+    <div className="flex flex-col gap-8">
       <Header />
       <Hero />
       <Projects />
       <Footer />
-    </>
+    </div>
   );
 }
 
