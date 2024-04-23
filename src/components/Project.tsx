@@ -5,12 +5,12 @@ const Project = () => {
   const tags: string[] = ["HTML", "CSS", "JavaScript", "React", "MongoDB"];
 
   const tagButtons: JSX.Element[] = tags.map((tag) => {
-    return <p>{tag}</p>;
+    return <p key={tag}>{tag}</p>;
   });
 
   const linksList: JSX.Element[] = links.map((link) => {
     return (
-      <li className="self-start">
+      <li key={link} className="self-start">
         <a href="" className="flex items-center">
           {link}&nbsp;
           <ArrowTopRightOnSquareIcon className="icon" />
