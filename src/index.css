@@ -10,6 +10,16 @@
     @apply bg-zinc-50;
     border: 1px solid red;
   }
+
+  a {
+    @apply transition-colors;
+    @apply ease-out;
+    @apply duration-150;
+  }
+
+  a:hover {
+    @apply text-zinc-400;
+  }
 }
 
 @layer utilities {
