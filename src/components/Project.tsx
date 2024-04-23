@@ -13,7 +13,7 @@ const Project = () => {
       <li key={link} className="self-start">
         <a href="" className="flex items-center">
           {link}&nbsp;
-          <ArrowTopRightOnSquareIcon className="icon" />
+          <ArrowTopRightOnSquareIcon className="w-5 h-5" />
         </a>
       </li>
     );

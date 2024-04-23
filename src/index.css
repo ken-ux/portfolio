@@ -7,7 +7,7 @@
     @apply max-w-screen-xl;
     @apply m-auto;
     @apply p-8;
-    background-color: lightblue;
+    @apply bg-zinc-50;
     border: 1px solid red;
   }
 }
@@ -15,10 +15,5 @@
 @layer utilities {
   .test {
     border: 1px solid red;
-  }
-
-  .icon {
-    @apply h-5;
-    @apply w-5;
   }
 }
