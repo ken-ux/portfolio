@@ -2,12 +2,12 @@ import { HomeIcon } from "@heroicons/react/24/solid";
 
 const Header = () => {
   return (
-    <header className="test sticky top-0 backdrop-blur-sm rounded-full px-6 py-2 m-auto w-4/5">
-      <nav className="flex justify-evenly sm:justify-between items-center">
+    <header className="test sticky top-0 backdrop-blur-sm rounded-full px-6 py-2 m-auto w-full md:w-4/5">
+      <nav className="flex justify-between items-center">
         <a href="/">
           <HomeIcon className="h-8 w-8" />
         </a>
-        <ul className="flex gap-4 sm:gap-8">
+        <ul className="flex gap-4">
           <li>
             <a href="#projects">Projects</a>
           </li>
