@@ -9,7 +9,7 @@ const Projects = () => {
       >
         Projects
       </h2>
-      <div className="grid grid-cols-1 gap-4 sm:grid-cols-3 lg:grid-cols-5">
+      <div className="grid grid-cols-1 gap-8 sm:grid-cols-3 lg:grid-cols-4">
         <Project />
         <Project />
         <Project />
