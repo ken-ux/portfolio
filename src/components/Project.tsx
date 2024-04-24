@@ -7,9 +7,7 @@ const Project = () => {
   const links: string[] = ["Github Repo", "Live"];
   const tags: string[] = ["HTML", "CSS", "JavaScript", "React", "MongoDB"];
 
-  const tagButtons: JSX.Element[] = tags.map((tag) => {
-    return <p key={tag}>{tag}</p>;
-  });
+  const tagsList: string = tags.toString().replaceAll(",", ", ");
 
   const linksList: JSX.Element[] = links.map((link) => {
     return (
@@ -24,29 +22,44 @@ const Project = () => {
 
   return (
     <div>
-      {/* <div className="flex items-center justify-center">
-        <ul className="absolute flex flex-col sm:flex-row sm:gap-4">
-          {linksList}
-        </ul>
+      {/* <div
+        className="relative flex items-center"
+        onMouseEnter={() => setHover(true)}
+        onMouseLeave={() => setHover(false)}
+      >
         <img
           src={url}
           alt=""
-          className="w-full rounded-md border border-zinc-200 shadow-md"
+          className={
+            "w-full rounded-md border border-zinc-200 transition-all duration-200 ease-linear" +
+            (hover ? " scale-[1.01] shadow-lg" : " shadow-sm")
+          }
         />
+        <div
+          className={
+            "absolute flex h-full flex-wrap content-center items-center justify-center gap-2 rounded-md transition-all duration-200 ease-linear" +
+            (hover ? " scale-[1.01] bg-zinc-200/90 opacity-100" : " opacity-0")
+          }
+        >
+          <p>Technology Used:</p>
+          {tagButtons}
+        </div>
       </div> */}
       <img
         src={url}
         alt=""
         className={
-          "w-full rounded-md border border-zinc-200 shadow-md transition-all duration-200 ease-linear" +
-          (hover ? " opacity-70" : "")
+          "w-full rounded-md border border-zinc-200 transition-all duration-200 ease-linear" +
+          (hover ? " scale-[1.01] shadow-lg" : " shadow-sm")
         }
         onMouseEnter={() => setHover(true)}
         onMouseLeave={() => setHover(false)}
       />
-      <h3 className="mt-2 font-semibold">Project Title</h3>
+      <h3 className="mt-4 font-semibold">Project Title</h3>
       <ul className="flex flex-col sm:flex-row sm:gap-4">{linksList}</ul>
-      <div className="flex flex-wrap gap-x-2">{tagButtons}</div>
+      <p className="mt-2 text-xs tracking-widest text-zinc-500">
+        Technology: {tagsList}
+      </p>
     </div>
   );
 };
