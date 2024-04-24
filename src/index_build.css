@@ -446,10 +446,44 @@ video {
   display: none;
 }
 
+@font-face {
+  font-family: "Inter";
+
+  font-style: normal;
+
+  src: url("../src/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+
+  font-style: normal;
+
+  font-weight: 500;
+
+  src: url("../src/fonts/SF\ Pro\ Display/SF-Pro-Display-Medium.otf")
+      format("opentype");
+}
+
+html {
+  font-family: "Inter", system-ui, sans-serif;
+}
+
 body {
   max-width: 1280px;
   margin: auto;
   padding: 2rem;
+}
+
+@media (min-width: 768px) {
+  body {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+}
+
+body {
   --tw-bg-opacity: 1;
   background-color: rgb(250 250 250 / var(--tw-bg-opacity));
   border: 1px solid red;
@@ -587,6 +621,10 @@ a:hover {
   margin: auto;
 }
 
+.inline {
+  display: inline;
+}
+
 .flex {
   display: flex;
 }
@@ -617,6 +655,10 @@ a:hover {
 
 .w-full {
   width: 100%;
+}
+
+.w-3\/4 {
+  width: 75%;
 }
 
 .grid-cols-1 {
@@ -687,6 +729,15 @@ a:hover {
   padding-bottom: 0.5rem;
 }
 
+.font-display {
+  font-family: SF Pro Display, system-ui, sans-serif;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .backdrop-blur-sm {
   --tw-backdrop-blur: blur(4px);
   -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
@@ -714,6 +765,10 @@ a:hover {
 @media (min-width: 768px) {
   .md\:w-4\/5 {
     width: 80%;
+  }
+
+  .md\:w-3\/4 {
+    width: 75%;
   }
 }
 
