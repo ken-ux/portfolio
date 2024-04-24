@@ -9,7 +9,9 @@ function App() {
     <div className="flex flex-col gap-8">
       <Header />
       <Hero />
+      <hr />
       <Projects />
+      <hr />
       <Footer />
     </div>
   );
