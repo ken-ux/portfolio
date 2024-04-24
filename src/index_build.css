@@ -621,6 +621,24 @@ a:hover {
   margin: auto;
 }
 
+.my-20 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.my-12 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
 .inline {
   display: inline;
 }
@@ -645,6 +663,10 @@ a:hover {
   height: 2rem;
 }
 
+.h-12 {
+  height: 3rem;
+}
+
 .w-5 {
   width: 1.25rem;
 }
@@ -659,6 +681,10 @@ a:hover {
 
 .w-3\/4 {
   width: 75%;
+}
+
+.w-12 {
+  width: 3rem;
 }
 
 .grid-cols-1 {
@@ -691,6 +717,14 @@ a:hover {
 
 .gap-8 {
   gap: 2rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.gap-1 {
+  gap: 0.25rem;
 }
 
 .gap-x-2 {
@@ -736,6 +770,29 @@ a:hover {
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .backdrop-blur-sm {
