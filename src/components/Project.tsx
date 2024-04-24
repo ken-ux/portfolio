@@ -1,14 +1,16 @@
 import { useState } from "react";
 import { ArrowTopRightOnSquareIcon } from "@heroicons/react/20/solid";
-import url from "../assets/project_thumbnails/members_only.png";
 
-const Project = () => {
+interface ProjectProps {
+  imageUrl: string;
+  links: string[];
+  tags: string[];
+}
+
+const Project = ({ imageUrl, links, tags }: ProjectProps) => {
   const [hover, setHover] = useState(false);
-  const links: string[] = ["Github Repo", "Live"];
-  const tags: string[] = ["HTML", "CSS", "JavaScript", "React", "MongoDB"];
 
   const tagsList: string = tags.toString().replaceAll(",", ", ");
-
   const linksList: JSX.Element[] = links.map((link) => {
     return (
       <li key={link} className="self-start">
@@ -46,7 +48,7 @@ const Project = () => {
         </div>
       </div> */}
       <img
-        src={url}
+        src={imageUrl}
         alt=""
         className={
           "w-full rounded-md border border-zinc-200 transition-all duration-200 ease-linear" +
@@ -57,7 +59,7 @@ const Project = () => {
       />
       <h3 className="mt-4 font-semibold">Project Title</h3>
       <ul className="flex flex-col sm:flex-row sm:gap-4">{linksList}</ul>
-      <p className="mt-2 text-sm md:text-xs tracking-widest text-zinc-500">
+      <p className="mt-2 text-sm tracking-widest text-zinc-500 md:text-xs">
         Technology: {tagsList}
       </p>
     </div>
