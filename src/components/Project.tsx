@@ -57,7 +57,7 @@ const Project = () => {
       />
       <h3 className="mt-4 font-semibold">Project Title</h3>
       <ul className="flex flex-col sm:flex-row sm:gap-4">{linksList}</ul>
-      <p className="mt-2 text-xs tracking-widest text-zinc-500">
+      <p className="mt-2 text-sm md:text-xs tracking-widest text-zinc-500">
         Technology: {tagsList}
       </p>
     </div>
