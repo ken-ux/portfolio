@@ -10,8 +10,6 @@ import tic_tac_toe_thumbnail from "../assets/project_thumbnails/tic_tac_toe.png"
 import weather_app_thumbnail from "../assets/project_thumbnails/weather_app.png";
 
 const Projects = () => {
-  const tags: string[] = ["HTML", "CSS", "JavaScript", "React", "MongoDB"];
-
   return (
     <div className="flex flex-col gap-4">
       <h2
@@ -26,63 +24,63 @@ const Projects = () => {
           imageUrl={members_only_thumbnail}
           repo="https://github.com/ken-ux/members-only"
           live="https://members-only-production-4f8b.up.railway.app/"
-          tags={tags}
+          tags={["Express.js", "Pug", "MongoDB", "Tailwind CSS"]}
         />
         <Project
           title="Inventory App"
           imageUrl={inventory_app_thumbnail}
           repo="https://github.com/ken-ux/inventory-application"
           live="https://inventory-application-production-c0ab.up.railway.app/catalog"
-          tags={tags}
+          tags={["Express.js", "Pug", "MongoDB", "CSS"]}
         />
         <Project
           title="Shopping Cart"
           imageUrl={shopping_cart_thumbnail}
           repo="https://github.com/ken-ux/shopping-cart"
           live="https://ken-ux.github.io/shopping-cart/"
-          tags={tags}
+          tags={["React", "JavaScript", "CSS"]}
         />
         <Project
           title="Memory Card"
           imageUrl={memory_card_thumbnail}
           repo="https://github.com/ken-ux/memory-card"
           live="https://ken-ux.github.io/memory-card/"
-          tags={tags}
+          tags={["React", "JavaScript", "CSS"]}
         />
         <Project
           title="CV Application"
           imageUrl={cv_application_thumbnail}
           repo="https://github.com/ken-ux/cv-application"
           live="https://bejewelled-sunflower-6c7688.netlify.app/"
-          tags={tags}
+          tags={["React", "JavaScript", "CSS"]}
         />
         <Project
           title="Battleship"
           imageUrl={battleship_thumbnail}
           repo="https://github.com/ken-ux/battleship"
           live="https://ken-ux.github.io/battleship/"
-          tags={tags}
+          tags={["JavaScript", "CSS"]}
         />
         <Project
           title="Calculator"
           imageUrl={calculator_thumbnail}
           repo="https://github.com/ken-ux/calculator"
           live="https://ken-ux.github.io/calculator/"
-          tags={tags}
+          tags={["HTML", "JavaScript", "CSS"]}
         />
         <Project
           title="Weather App"
           imageUrl={weather_app_thumbnail}
           repo="https://github.com/ken-ux/weather-app"
           live="https://ken-ux.github.io/weather-app/"
-          tags={tags}
+          tags={["JavaScript", "CSS"]}
         />
         <Project
           title="Tic-Tac-Toe"
           imageUrl={tic_tac_toe_thumbnail}
           repo="https://github.com/ken-ux/tic-tac-toe"
           live="https://ken-ux.github.io/tic-tac-toe/"
-          tags={tags}
+          tags={["HTML", "JavaScript", "CSS"]}
         />
       </div>
     </div>
