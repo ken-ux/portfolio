@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { HomeIcon } from "@heroicons/react/24/solid";
 
 const Header = () => {
@@ -9,10 +10,10 @@ const Header = () => {
         </a>
         <ul className="flex gap-4">
           <li>
-            <a href="#projects">Projects</a>
+            <Link to="/projects">Projects</Link>
           </li>
           <li>
-            <a href="/about">About</a>
+            <Link to="/about">About</Link>
           </li>
         </ul>
       </nav>
