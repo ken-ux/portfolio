@@ -2,12 +2,13 @@ import { useState } from "react";
 import { ArrowTopRightOnSquareIcon } from "@heroicons/react/20/solid";
 
 interface ProjectProps {
+  title: string;
   imageUrl: string;
   links: string[];
   tags: string[];
 }
 
-const Project = ({ imageUrl, links, tags }: ProjectProps) => {
+const Project = ({ title, imageUrl, links, tags }: ProjectProps) => {
   const [hover, setHover] = useState(false);
 
   const tagsList: string = tags.toString().replaceAll(",", ", ");
@@ -34,7 +35,7 @@ const Project = ({ imageUrl, links, tags }: ProjectProps) => {
         onMouseEnter={() => setHover(true)}
         onMouseLeave={() => setHover(false)}
       />
-      <h3 className="mt-4 font-semibold">Project Title</h3>
+      <h3 className="mt-4 font-semibold">{title}</h3>
       <ul className="flex flex-col sm:flex-row sm:gap-4">{linksList}</ul>
       <p className="mt-2 text-sm tracking-widest text-zinc-500 md:text-xs">
         Technologies Used: {tagsList}
