@@ -4,19 +4,26 @@ import { ArrowTopRightOnSquareIcon } from "@heroicons/react/20/solid";
 interface ProjectProps {
   title: string;
   imageUrl: string;
-  links: string[];
+  repo: string;
+  live?: string;
   tags: string[];
 }
 
-const Project = ({ title, imageUrl, links, tags }: ProjectProps) => {
+const Project = ({ title, imageUrl, repo, live, tags }: ProjectProps) => {
   const [hover, setHover] = useState(false);
 
   const tagsList: string = tags.toString().replaceAll(",", ", ");
-  const linksList: JSX.Element[] = links.map((link) => {
+
+  const links = [{ name: "GitHub Repo", url: repo }];
+  if (live) {
+    links.push({ name: "Live", url: live });
+  }
+
+  const linksList: JSX.Element[] = links.map((link, index) => {
     return (
-      <li key={link} className="self-start">
-        <a href="" className="flex items-center">
-          {link}&nbsp;
+      <li key={index} className="self-start">
+        <a href={link.url} className="flex items-center">
+          {link.name}&nbsp;
           <ArrowTopRightOnSquareIcon className="h-5 w-5" />
         </a>
       </li>

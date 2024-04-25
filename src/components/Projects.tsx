@@ -10,7 +10,6 @@ import tic_tac_toe_thumbnail from "../assets/project_thumbnails/tic_tac_toe.png"
 import weather_app_thumbnail from "../assets/project_thumbnails/weather_app.png";
 
 const Projects = () => {
-  const links: string[] = ["Github Repo", "Live"];
   const tags: string[] = ["HTML", "CSS", "JavaScript", "React", "MongoDB"];
 
   return (
@@ -25,55 +24,64 @@ const Projects = () => {
         <Project
           title="Members Only"
           imageUrl={members_only_thumbnail}
-          links={links}
+          repo="https://github.com/ken-ux/members-only"
+          live="https://members-only-production-4f8b.up.railway.app/"
           tags={tags}
         />
         <Project
           title="Inventory App"
           imageUrl={inventory_app_thumbnail}
-          links={links}
+          repo="https://github.com/ken-ux/inventory-application"
+          live="https://inventory-application-production-c0ab.up.railway.app/catalog"
           tags={tags}
         />
         <Project
           title="Shopping Cart"
           imageUrl={shopping_cart_thumbnail}
-          links={links}
+          repo="https://github.com/ken-ux/shopping-cart"
+          live="https://ken-ux.github.io/shopping-cart/"
           tags={tags}
         />
         <Project
           title="Memory Card"
           imageUrl={memory_card_thumbnail}
-          links={links}
+          repo="https://github.com/ken-ux/memory-card"
+          live="https://ken-ux.github.io/memory-card/"
           tags={tags}
         />
         <Project
           title="CV Application"
           imageUrl={cv_application_thumbnail}
-          links={links}
+          repo="https://github.com/ken-ux/cv-application"
+          live="https://bejewelled-sunflower-6c7688.netlify.app/"
           tags={tags}
         />
         <Project
           title="Battleship"
           imageUrl={battleship_thumbnail}
-          links={links}
+          repo="https://github.com/ken-ux/battleship"
+          live="https://ken-ux.github.io/battleship/"
           tags={tags}
         />
         <Project
           title="Calculator"
           imageUrl={calculator_thumbnail}
-          links={links}
+          repo="https://github.com/ken-ux/calculator"
+          live="https://ken-ux.github.io/calculator/"
           tags={tags}
         />
         <Project
           title="Weather App"
           imageUrl={weather_app_thumbnail}
-          links={links}
+          repo="https://github.com/ken-ux/weather-app"
+          live="https://ken-ux.github.io/weather-app/"
           tags={tags}
         />
         <Project
           title="Tic-Tac-Toe"
           imageUrl={tic_tac_toe_thumbnail}
-          links={links}
+          repo="https://github.com/ken-ux/tic-tac-toe"
+          live="https://ken-ux.github.io/tic-tac-toe/"
           tags={tags}
         />
       </div>
