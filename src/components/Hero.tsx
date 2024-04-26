@@ -1,3 +1,5 @@
+import { ArrowTopRightOnSquareIcon } from "@heroicons/react/24/solid";
+
 const Hero = () => {
   return (
     <div className="mt-12 md:w-4/5">
@@ -9,10 +11,25 @@ const Hero = () => {
         </span>
       </div>
 
-      <div className="mt-12 flex gap-4 text-2xl">
-        <a href="">GitHub</a>
-        <a href="">LinkedIn</a>
-        <a href="">Email</a>
+      <div className="mt-12 flex flex-wrap gap-6 text-2xl">
+        <a href="https://github.com/ken-ux" className="flex items-center gap-1">
+          GitHub
+          <ArrowTopRightOnSquareIcon className="h-6 w-6" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/kennyhn/"
+          className="flex items-center gap-1"
+        >
+          LinkedIn
+          <ArrowTopRightOnSquareIcon className="h-6 w-6" />
+        </a>
+        <a
+          href="mailto:kennynguyenx@gmail.com ?subject=Portfolio Inquiry"
+          className="flex items-center gap-1"
+        >
+          Email
+          <ArrowTopRightOnSquareIcon className="h-6 w-6" />
+        </a>
       </div>
     </div>
   );
