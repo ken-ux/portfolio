@@ -28,7 +28,6 @@
     @apply p-8;
     @apply md:px-24;
     @apply bg-zinc-50;
-    border: 1px solid red;
   }
 
   a {
