@@ -42,7 +42,7 @@ const Project = ({ title, imageUrl, repo, live, tags }: ProjectProps) => {
         onMouseEnter={() => setHover(true)}
         onMouseLeave={() => setHover(false)}
       />
-      <h3 className="mt-4 font-semibold">{title}</h3>
+      <h2 className="mt-4 font-semibold">{title}</h2>
       <ul className="flex flex-col sm:flex-row sm:gap-4">{linksList}</ul>
       <p className="mt-2 text-sm tracking-widest text-zinc-500 md:text-xs">
         Technologies Used: {tagsList}
