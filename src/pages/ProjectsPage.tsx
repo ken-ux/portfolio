@@ -1,4 +1,4 @@
-import Project from "./Project";
+import Project from "../components/Project";
 import members_only_thumbnail from "../assets/project_thumbnails/members_only.gif";
 import inventory_app_thumbnail from "../assets/project_thumbnails/inventory_application.gif";
 import shopping_cart_thumbnail from "../assets/project_thumbnails/shopping_cart.gif";
@@ -9,7 +9,7 @@ import calculator_thumbnail from "../assets/project_thumbnails/calculator.png";
 import tic_tac_toe_thumbnail from "../assets/project_thumbnails/tic_tac_toe.png";
 import weather_app_thumbnail from "../assets/project_thumbnails/weather_app.png";
 
-const Projects = () => {
+const ProjectsPage = () => {
   return (
     <div className="flex flex-col gap-4">
       <h2
@@ -87,4 +87,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default ProjectsPage;
