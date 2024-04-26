@@ -1,21 +1,19 @@
 import App from "./App.tsx";
-// import Hero from "./components/Hero.tsx";
-// import Projects from "./components/Projects.tsx";
-// import ErrorPage from "./ErrorPage";
+import HomePage from "./pages/HomePage.tsx";
+import ProjectsPage from "./pages/ProjectsPage.tsx";
+import AboutPage from "./pages/AboutPage.tsx";
+import ErrorPage from "./pages/ErrorPage";
 
 const routes = [
   {
     path: "/",
     element: <App />,
-    // children: [
-    //   { path: "/", element: <Hero /> },
-    //   { path: "projects", element: <Projects /> },
-    // ],
-    // errorElement: <ErrorPage />,
-  },
-  {
-    path: "/:name",
-    element: <App />,
+    children: [
+      { path: "/", element: <HomePage /> },
+      { path: "projects", element: <ProjectsPage /> },
+      { path: "/about", element: <AboutPage /> },
+    ],
+    errorElement: <ErrorPage />,
   },
 ];
 
