@@ -5,9 +5,9 @@ const Header = () => {
   return (
     <header className="sticky top-0 m-auto w-full rounded-full border-2 border-zinc-200 bg-zinc-200/50 px-6 py-2 backdrop-blur-sm md:w-4/5">
       <nav className="flex items-center justify-between">
-        <a href="/">
+        <Link to="/">
           <HomeIcon className="h-8 w-8" />
-        </a>
+        </Link>
         <ul className="flex gap-4">
           <li>
             <Link to="/projects">Projects</Link>
