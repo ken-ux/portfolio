@@ -1,4 +1,6 @@
 import { ArrowTopRightOnSquareIcon } from "@heroicons/react/24/solid";
+import { ArrowLongRightIcon } from "@heroicons/react/24/solid";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -30,6 +32,13 @@ const Hero = () => {
           Email
           <ArrowTopRightOnSquareIcon className="h-6 w-6" />
         </a>
+      </div>
+
+      <div className="mt-12 flex text-xl">
+        <Link to="/projects" className="flex items-center gap-1">
+          View my projects here.
+          <ArrowLongRightIcon className="h-6 w-6" />
+        </Link>
       </div>
     </div>
   );
