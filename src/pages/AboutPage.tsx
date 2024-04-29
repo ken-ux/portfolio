@@ -10,20 +10,18 @@ const AboutPage = () => {
           UX designer in the gaming industry.
           <br />
           <br />
-          I've always loved to be a generalist. Through a constant pursuit of
-          knowledge, I am able to not only broaden the horizons of what I know,
-          but also how I can empathize with others. The world becomes more
-          vibrant when I get to experience it through different perspectives.
-          <br />
-          <br />
           After graduating college, I interned as a software engineer for a
-          biotech start-up. Afterwards, I attended graduate school to learn more
-          about the intersection of business and technology. I then landed a job
-          as a UX designer at a multi-national corporation. After some time, I
-          started to realize that bringing ideas to life felt more fulfilling
-          than merely handing off the designs for them. So, now I'm back to
-          focusing my career as a developer with the valuable experiences of a
-          designer.
+          biotech start-up developing a laboratory management SaaS. Afterwards,
+          I attended graduate school to learn more about the intersection of
+          business and technology. During this time, I also worked at a research
+          lab studying visualization tools and their use in understanding media.
+          <br />
+          <br />I then worked at a multi-national corporation designing user
+          flows for mobile games. However, I came to the realization that
+          building apps felt more fulfilling to me than merely handing off the
+          designs for them. A bit of a full-circle moment, but I'm now a
+          refocused full-stack developer bringing along the holistic insights of
+          a designer in the tech industry.
         </p>
       </div>
       <hr />
