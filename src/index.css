@@ -30,6 +30,10 @@
     @apply bg-zinc-50;
   }
 
+  body * {
+    @apply animate-fadein;
+  }
+
   a {
     @apply transition-colors;
     @apply ease-out;
