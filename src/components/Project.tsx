@@ -22,7 +22,7 @@ const Project = ({ title, imageUrl, repo, live, tags }: ProjectProps) => {
   const linksList: JSX.Element[] = links.map((link, index) => {
     return (
       <li key={index} className="self-start">
-        <a href={link.url} className="flex items-center">
+        <a href={link.url} target="_blank" className="flex items-center">
           {link.name}&nbsp;
           <ArrowTopRightOnSquareIcon className="h-5 w-5" />
         </a>
