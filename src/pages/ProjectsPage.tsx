@@ -1,4 +1,5 @@
 import Project from "../components/Project";
+import blog_thumbnail from "../assets/project_thumbnails/blog.png";
 import members_only_thumbnail from "../assets/project_thumbnails/members_only.gif";
 import inventory_app_thumbnail from "../assets/project_thumbnails/inventory_application.gif";
 import shopping_cart_thumbnail from "../assets/project_thumbnails/shopping_cart.gif";
@@ -16,6 +17,13 @@ const ProjectsPage = () => {
         Projects
       </h1>
       <div className="grid grid-cols-1 gap-8 sm:grid-cols-3 lg:grid-cols-4">
+        <Project
+          title="Blog"
+          imageUrl={blog_thumbnail}
+          repo="https://github.com/ken-ux/blog-frontend"
+          live="https://blog-frontend-ken.netlify.app/"
+          tags={["React", "TypeScript", "Tailwind CSS"]}
+        />
         <Project
           title="Members Only"
           imageUrl={members_only_thumbnail}
