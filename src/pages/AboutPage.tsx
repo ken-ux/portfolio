@@ -16,12 +16,12 @@ const AboutPage = () => {
           business and technology. During this time, I also worked at a research
           lab studying visualization tools and their use in understanding media.
           <br />
-          <br />I then worked at a multi-national corporation designing user
-          flows for mobile games. However, I came to the realization that
-          building apps felt more fulfilling to me than merely handing off the
-          designs for them. A bit of a full-circle moment, but I'm now a
-          refocused full-stack developer bringing along the holistic insights of
-          a designer in the tech industry.
+          <br />I then worked at a multi-national corporation designing the user
+          experience for mobile games. While getting to know the technical side
+          of game development, I realized that building apps felt more
+          fulfilling to me than handing off the designs for them. A full-circle
+          moment, but I'm now a full-stack developer bringing along the holistic
+          insights of a designer in the tech industry.
         </p>
       </div>
       <hr />
@@ -34,7 +34,7 @@ const AboutPage = () => {
             <p>University of Washington</p>
             <p>Master of Science in Information Management</p>
             <p className="mt-1 text-sm text-zinc-500">
-              Concentration: User Experience
+              Concentration: Data Science
             </p>
           </div>
           <div>
