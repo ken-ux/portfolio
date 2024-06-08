@@ -451,8 +451,7 @@ video {
 
   font-style: normal;
 
-  src: url("../src/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf")
-      format("truetype");
+  src: url("./src/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf");
 }
 
 @font-face {
@@ -462,8 +461,7 @@ video {
 
   font-weight: 500;
 
-  src: url("../src/fonts/SF\ Pro\ Display/SF-Pro-Display-Medium.otf")
-      format("opentype");
+  src: url("./src/fonts/SF\ Pro\ Display/SF-Pro-Display-Medium.otf");
 }
 
 html {
