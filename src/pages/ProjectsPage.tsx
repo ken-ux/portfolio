@@ -1,14 +1,15 @@
-import Project from "../components/Project";
-import blog_thumbnail from "../assets/project_thumbnails/blog.png";
-import members_only_thumbnail from "../assets/project_thumbnails/members_only.gif";
-import inventory_app_thumbnail from "../assets/project_thumbnails/inventory_application.gif";
-import shopping_cart_thumbnail from "../assets/project_thumbnails/shopping_cart.gif";
-import memory_card_thumbnail from "../assets/project_thumbnails/memory_card.gif";
-import cv_application_thumbnail from "../assets/project_thumbnails/cv_application.png";
 import battleship_thumbnail from "../assets/project_thumbnails/battleship.png";
+import blog_thumbnail from "../assets/project_thumbnails/blog.png";
 import calculator_thumbnail from "../assets/project_thumbnails/calculator.png";
+import cv_application_thumbnail from "../assets/project_thumbnails/cv_application.png";
+import inventory_app_thumbnail from "../assets/project_thumbnails/inventory_application.gif";
+import members_only_thumbnail from "../assets/project_thumbnails/members_only.gif";
+import memory_card_thumbnail from "../assets/project_thumbnails/memory_card.gif";
+import shopping_cart_thumbnail from "../assets/project_thumbnails/shopping_cart.gif";
 import tic_tac_toe_thumbnail from "../assets/project_thumbnails/tic_tac_toe.png";
 import weather_app_thumbnail from "../assets/project_thumbnails/weather_app.png";
+import wheres_waldo_thumbnail from "../assets/project_thumbnails/wheres_waldo.gif";
+import Project from "../components/Project";
 
 const ProjectsPage = () => {
   return (
@@ -18,18 +19,25 @@ const ProjectsPage = () => {
       </h1>
       <div className="grid grid-cols-1 gap-8 sm:grid-cols-3 lg:grid-cols-4">
         <Project
+          title="Where's Waldo"
+          imageUrl={wheres_waldo_thumbnail}
+          repo="https://github.com/ken-ux/wheres-waldo"
+          live="https://wheres-waldo-ken.netlify.app/"
+          tags={["React", "TypeScript", "Tailwind, Go, PostGres"]}
+        />
+        <Project
           title="Blog"
           imageUrl={blog_thumbnail}
           repo="https://github.com/ken-ux/blog-frontend"
           live="https://blog-frontend-ken.netlify.app/"
-          tags={["React", "TypeScript", "Tailwind CSS"]}
+          tags={["React", "TypeScript", "Tailwind"]}
         />
         <Project
           title="Members Only"
           imageUrl={members_only_thumbnail}
           repo="https://github.com/ken-ux/members-only"
           live="https://members-only-production-4f8b.up.railway.app/"
-          tags={["Express.js", "Pug", "MongoDB", "Tailwind CSS"]}
+          tags={["Express.js", "Pug", "MongoDB", "Tailwind"]}
         />
         <Project
           title="Inventory App"
