@@ -10,12 +10,14 @@ const Skills = () => {
           Programming Languages
         </h3>
         <ul className="mt-1 flex flex-wrap gap-2 text-sm *:rounded *:bg-zinc-500 *:px-2 *:py-1 *:text-zinc-50">
-          <li>JavaScript</li>
           <li>TypeScript</li>
+          <li>JavaScript</li>
           <li>HTML</li>
           <li>CSS</li>
+          <li>SQL</li>
           <li>Python</li>
           <li>R</li>
+          <li>Go</li>
         </ul>
       </div>
 
@@ -36,13 +38,15 @@ const Skills = () => {
 
       <div>
         <h3 className="text-sm uppercase tracking-widest text-zinc-500">
-          Utility
+          Tools
         </h3>
         <ul className="mt-1 flex flex-wrap gap-2 text-sm *:rounded *:bg-zinc-500 *:px-2 *:py-1 *:text-zinc-50">
-          <li>MongoDB</li>
           <li>Git</li>
-          <li>Vite</li>
           <li>Shell Script</li>
+          <li>PostGreSQL</li>
+          <li>Supabase</li>
+          <li>MongoDB</li>
+          <li>Vite</li>
           <li>Netlify</li>
           <li>Vercel</li>
         </ul>
