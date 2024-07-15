@@ -1,6 +1,6 @@
 const AboutPage = () => {
   return (
-    <>
+    <div className="mt-12 flex flex-col gap-6">
       <div>
         <h1 className="text-sm uppercase tracking-widest text-zinc-500">
           About Me
@@ -21,8 +21,8 @@ const AboutPage = () => {
           <br />
           <br />
           In my free time, I enjoy making digital art and gaming. 3D modeling is
-          one of my most recent hobbies. Feel free to reach out if you have
-          any questions!
+          one of my most recent hobbies. Feel free to reach out if you have any
+          questions!
         </p>
       </div>
       <hr />
@@ -48,7 +48,7 @@ const AboutPage = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
