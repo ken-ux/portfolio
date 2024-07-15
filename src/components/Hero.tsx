@@ -1,11 +1,13 @@
-import { ArrowTopRightOnSquareIcon } from "@heroicons/react/24/solid";
-import { ArrowLongRightIcon } from "@heroicons/react/24/solid";
+import {
+  ArrowLongRightIcon,
+  ArrowTopRightOnSquareIcon,
+} from "@heroicons/react/24/solid";
 import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <div className="mt-12 md:w-4/5">
-      <div className="font-display text-5xl leading-tight tracking-tight">
+    <div className="mt-12 flex flex-col gap-12 md:w-4/5">
+      <div className="font-display text-3xl leading-tight tracking-tight sm:text-4xl md:text-5xl">
         <h1 className="inline">Hi, I'm Kenny Nguyen.</h1>
         <span>
           &nbsp;A full-stack software developer building applications that
@@ -13,7 +15,7 @@ const Hero = () => {
         </span>
       </div>
 
-      <div className="mt-12 flex flex-wrap gap-6 text-2xl">
+      <div className="flex flex-wrap gap-6 text-2xl">
         <a href="https://github.com/ken-ux" className="flex items-center gap-1">
           GitHub
           <ArrowTopRightOnSquareIcon className="h-6 w-6" />
@@ -34,9 +36,9 @@ const Hero = () => {
         </a>
       </div>
 
-      <div className="mt-12 flex text-xl">
+      <div className="flex text-xl">
         <Link to="/projects" className="flex items-center gap-1">
-          View my projects here.
+          View my projects
           <ArrowLongRightIcon className="h-6 w-6" />
         </Link>
       </div>
