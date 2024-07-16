@@ -1,6 +1,6 @@
 const AboutPage = () => {
   return (
-    <div className="mt-12 flex flex-col gap-6">
+    <main className="mt-12 flex flex-col gap-6">
       <div>
         <h1 className="text-sm uppercase tracking-widest text-zinc-500">
           About Me
@@ -48,7 +48,7 @@ const AboutPage = () => {
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 

@@ -13,7 +13,7 @@ import Project from "../components/Project";
 
 const ProjectsPage = () => {
   return (
-    <div className="mt-12 flex flex-col gap-4">
+    <main className="mt-12 flex flex-col gap-4">
       <h1 className="text-sm uppercase tracking-widest text-zinc-500">
         Projects
       </h1>
@@ -96,7 +96,7 @@ const ProjectsPage = () => {
           tags={["HTML", "JavaScript", "CSS"]}
         />
       </div>
-    </div>
+    </main>
   );
 };
 

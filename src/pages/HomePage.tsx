@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const HomePage = () => {
   return (
-    <div className="mt-12 flex flex-col gap-12 md:w-4/5">
+    <main className="mt-12 flex flex-col gap-12 md:w-4/5">
       <div className="font-display text-3xl tracking-tight sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
         <h1 className="inline">Hi, I'm Kenny Nguyen.</h1>
         <span>
@@ -42,7 +42,7 @@ const HomePage = () => {
           <ArrowLongRightIcon className="h-6 w-6" />
         </Link>
       </div>
-    </div>
+    </main>
   );
 };
 
