@@ -5,15 +5,31 @@
 @layer base {
   @font-face {
     font-family: "Inter";
+    font-weight: normal;
     font-style: normal;
-    src: url("./src/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf");
+    src: url("./fonts/Inter/static/Inter-Regular.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "Inter";
+    font-weight: 500;
+    font-style: normal;
+    src: url("./fonts/Inter/static/Inter-Medium.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "Inter";
+    font-weight: 600;
+    font-style: normal;
+    src: url("./fonts/Inter/static/Inter-SemiBold.ttf") format("truetype");
   }
 
   @font-face {
     font-family: "SF Pro Display";
     font-style: normal;
-    font-weight: 500;
-    src: url("./src/fonts/SF\ Pro\ Display/SF-Pro-Display-Medium.otf");
+    font-weight: normal;
+    src: url("./fonts/SF_Pro_Display/SF-Pro-Display-Regular.otf")
+      format("opentype");
   }
 
   html {
@@ -21,10 +37,6 @@
   }
 
   body {
-    @apply max-w-screen-xl;
-    @apply m-auto;
-    @apply p-8;
-    @apply md:px-24;
     @apply bg-zinc-50;
   }
 
