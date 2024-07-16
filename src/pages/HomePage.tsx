@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const HomePage = () => {
   return (
     <div className="mt-12 flex flex-col gap-12 md:w-4/5">
-      <div className="font-display text-3xl leading-tight tracking-tight sm:text-4xl md:text-5xl">
+      <div className="font-display text-3xl tracking-tight sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
         <h1 className="inline">Hi, I'm Kenny Nguyen.</h1>
         <span>
           &nbsp;A full-stack software developer building applications that
@@ -15,7 +15,7 @@ const HomePage = () => {
         </span>
       </div>
 
-      <div className="flex flex-wrap gap-6 text-2xl">
+      <div className="flex flex-wrap gap-6 text-lg md:text-2xl">
         <a href="https://github.com/ken-ux" className="flex items-center gap-1">
           GitHub
           <ArrowTopRightOnSquareIcon className="h-6 w-6" />
