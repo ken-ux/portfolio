@@ -1,5 +1,5 @@
-import { useState } from "react";
 import { ArrowTopRightOnSquareIcon } from "@heroicons/react/20/solid";
+import { useState } from "react";
 
 interface ProjectProps {
   title: string;
@@ -36,7 +36,7 @@ const Project = ({ title, imageUrl, repo, live, tags }: ProjectProps) => {
         src={imageUrl}
         alt=""
         className={
-          "aspect-square w-full rounded-md border border-zinc-200 object-cover object-left-top transition-all duration-200 ease-linear" +
+          "aspect-square w-full rounded-xl border border-zinc-200 object-cover object-left-top transition-all duration-100 ease-linear" +
           (hover ? " scale-[1.01] shadow-lg" : " shadow-sm")
         }
         onMouseEnter={() => setHover(true)}
@@ -44,7 +44,7 @@ const Project = ({ title, imageUrl, repo, live, tags }: ProjectProps) => {
       />
       <h2 className="mt-4 font-semibold">{title}</h2>
       <ul className="flex flex-col sm:flex-row sm:gap-4">{linksList}</ul>
-      <p className="mt-2 text-sm tracking-widest text-zinc-500 md:text-xs">
+      <p className="mt-2 text-sm tracking-wide text-zinc-500 md:text-xs">
         Technologies Used: {tagsList}
       </p>
     </div>
