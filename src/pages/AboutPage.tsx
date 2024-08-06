@@ -6,18 +6,9 @@ const AboutPage = () => {
           About Me
         </h1>
         <p className="mt-4 md:w-4/5">
-          I'm a full-stack developer, based in Seattle, bringing along the
-          holistic insights of a UX designer in the gaming industry.
-          <br />
-          <br />
-          After graduating college, I interned as a software engineer for a
-          biotech start-up developing a laboratory management SaaS. Afterwards,
-          I attended graduate school to learn more about the intersection of
-          business and technology. During this time, I also worked at a research
-          lab studying visualization tools and their use in understanding media.
-          I then worked at a multi-national corporation designing the user
-          experience for mobile games and getting to know the technical side of
-          game development.
+          I'm a full-stack developer based in Seattle that brings along holistic
+          insights of software development as a UX designer in the gaming
+          industry.
           <br />
           <br />
           In my free time, I enjoy making digital art and gaming. 3D modeling is
