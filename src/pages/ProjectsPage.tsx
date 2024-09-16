@@ -2,13 +2,13 @@ import battleship_thumbnail from "../assets/project_thumbnails/battleship.png";
 import blog_thumbnail from "../assets/project_thumbnails/blog.png";
 import calculator_thumbnail from "../assets/project_thumbnails/calculator.png";
 import cv_application_thumbnail from "../assets/project_thumbnails/cv_application.png";
-import inventory_app_thumbnail from "../assets/project_thumbnails/inventory_application.gif";
-import members_only_thumbnail from "../assets/project_thumbnails/members_only.gif";
-import memory_card_thumbnail from "../assets/project_thumbnails/memory_card.gif";
-import shopping_cart_thumbnail from "../assets/project_thumbnails/shopping_cart.gif";
+import inventory_app_thumbnail from "../assets/project_thumbnails/inventory_application.png";
+import members_only_thumbnail from "../assets/project_thumbnails/members_only.png";
+import memory_card_thumbnail from "../assets/project_thumbnails/memory_card.png";
+import shopping_cart_thumbnail from "../assets/project_thumbnails/shopping_cart.png";
 import tic_tac_toe_thumbnail from "../assets/project_thumbnails/tic_tac_toe.png";
 import weather_app_thumbnail from "../assets/project_thumbnails/weather_app.png";
-import wheres_waldo_thumbnail from "../assets/project_thumbnails/wheres_waldo.gif";
+import wheres_waldo_thumbnail from "../assets/project_thumbnails/wheres_waldo.png";
 import Project from "../components/Project";
 
 const ProjectsPage = () => {
