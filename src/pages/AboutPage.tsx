@@ -6,8 +6,7 @@ const AboutPage = () => {
           About Me
         </h1>
         <p className="mt-4 md:w-4/5">
-          I'm a full-stack developer based in Seattle that brings along holistic
-          insights of software development as a UX designer in the gaming
+          I'm a full-stack developer based in Seattle with prior experience in the mobile gaming
           industry.
           <br />
           <br />
