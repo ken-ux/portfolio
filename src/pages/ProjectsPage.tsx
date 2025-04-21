@@ -2,10 +2,12 @@ import battleship_thumbnail from "../assets/project_thumbnails/battleship.png";
 import blog_thumbnail from "../assets/project_thumbnails/blog.png";
 import calculator_thumbnail from "../assets/project_thumbnails/calculator.png";
 import cv_application_thumbnail from "../assets/project_thumbnails/cv_application.png";
+import magic_eight_ball_thumbnail from "../assets/project_thumbnails/eight_ball.png";
 import inventory_app_thumbnail from "../assets/project_thumbnails/inventory_application.png";
 import members_only_thumbnail from "../assets/project_thumbnails/members_only.png";
 import memory_card_thumbnail from "../assets/project_thumbnails/memory_card.png";
 import shopping_cart_thumbnail from "../assets/project_thumbnails/shopping_cart.png";
+import starsend_thumbnail from "../assets/project_thumbnails/starsend.png";
 import tic_tac_toe_thumbnail from "../assets/project_thumbnails/tic_tac_toe.png";
 import weather_app_thumbnail from "../assets/project_thumbnails/weather_app.png";
 import wheres_waldo_thumbnail from "../assets/project_thumbnails/wheres_waldo.png";
@@ -19,11 +21,24 @@ const ProjectsPage = () => {
       </h1>
       <div className="grid grid-cols-1 gap-8 sm:grid-cols-3 lg:grid-cols-4">
         <Project
+          title="Magic Eight Ball"
+          imageUrl={magic_eight_ball_thumbnail}
+          repo="https://github.com/ken-ux/magic-eight-ball"
+          live="https://magic-8-ball-ken.netlify.app/"
+          tags={["React", "TypeScript", "Three.js"]}
+        />
+        <Project
+          title="StarSend Messenger"
+          imageUrl={starsend_thumbnail}
+          repo="https://github.com/ken-ux/messaging-app"
+          tags={["React", "TypeScript", "Tailwind", "Go", "PostgreSQL"]}
+        />
+        <Project
           title="Where's Waldo"
           imageUrl={wheres_waldo_thumbnail}
           repo="https://github.com/ken-ux/wheres-waldo"
           live="https://wheres-waldo-ken.netlify.app/"
-          tags={["React", "TypeScript", "Tailwind, Go, PostGres"]}
+          tags={["React", "TypeScript", "Tailwind", "Go", "PostgreSQL"]}
         />
         <Project
           title="Blog"
