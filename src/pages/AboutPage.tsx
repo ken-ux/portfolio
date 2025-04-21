@@ -6,13 +6,12 @@ const AboutPage = () => {
           About Me
         </h1>
         <p className="mt-4 md:w-4/5">
-          I'm a full-stack developer based in Seattle with prior experience in the mobile gaming
-          industry.
+          I'm a full-stack developer based in Seattle with prior experience in
+          the mobile gaming industry.
           <br />
           <br />
-          In my free time, I enjoy making digital art and gaming. 3D modeling is
-          one of my most recent hobbies. Feel free to reach out if you have any
-          questions!
+          In my free time, I enjoy gaming, 3D modeling, and creating digital
+          art. Feel free to reach out if you have any questions!
         </p>
       </div>
       <hr />
